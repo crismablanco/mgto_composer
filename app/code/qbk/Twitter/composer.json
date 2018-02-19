@@ -1,0 +1,28 @@
+{
+    "name": "Qbk/Twitter",
+    "description": "Módulo de prueba para mostrar hashtags de Twitter",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "tags": ["tags", "hashtag", "twitter", "social", "network", "bot"],
+    "license": "MIT",
+    "homepage": "http://www.crismablanco.com/",
+    "authors": [
+        {
+            "name": "Cristian Blanco",
+            "email": "crismablanco@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~5.5.0|~5.6.0",
+        "magento/module-store": "1.0.0-beta",
+        "magento/module-catalog": "1.0.0-beta",
+        "magento/module-catalog-inventory": "1.0.0-beta",
+        "magento/module-ui": "self.version",
+        "magento/magento-composer-installer": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
